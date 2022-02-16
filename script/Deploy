@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ubuntu@52.79.117.82 <<EOF
+ssh ubuntu@13.125.245.61 <<EOF
     cd ~/nest-jenkins		
     git pull origin master
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
